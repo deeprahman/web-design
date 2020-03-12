@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font/fonts.css">
+</head>
+
+<body>
+    <!-- The header -->
+    <section id="header">
+        <!-- NAV bar begins -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="navbar-collapse collapse justify-content-center" id="collapsingNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">photoapp <span class="sr-only"></span></a>
+                    </li>
+                </ul>
+                <div id="logo">
+                    <a class="nav-link" href="#"><img src="./img/logo.png" alt="logo" srcset=""><span class="sr-only">logo</span></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">design <span class="sr-only">design</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">download <span class="sr-only">download</span></a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </nav><!--End Nav bar-->
+        <div class="hero-text">
+            <h1>Your Life , A photo</h1>
+            <h6>print your life in a simple photo</h6>
+            <button class="btn">Get Started</button>
+        </div>
+        <div class="hero-icons">
+            <img class="hero-icon__img" src="./img/twitter-icon.png" alt="Twitter Icon">
+            <img class="hero-icon__img hero-icon__middle-img" src="./img/flicker-icon.png" alt="Flicker Icon">
+            <img class="hero-icon__img" src="./img/dribble-icon.png" alt="Dribble Icon">
+        </div>
+    </section><!--End header-->
+    <!--Statement section-->
+    <section class="stmt">
+        <div class="stmt-container">
+            <h2 class="stmt-heading">Represent your life with a simple photo</h2>
+            <p class="stmt-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad placeat id aliquid adipisci, enim quia error ut expedita porro, iste nobis atque maiores vitae. Esse facilis dolor quam. Voluptate, fuga!</p>
+            <button class="btn btn-stmt">Get Started</button>
+        </div>
+    </section><!--End statement-->
+    <!-- Design Section -->
+    <section class="dsn row">
+        <div class="col-md-6" id="dsn-mobile-pic">
+            <img class="dsn-img" src="./img/phone.png" alt="" srcset="">
+        </div>
+        <div class="col-md-6">
+            <div id="dsn-slider">
+                <h2 class="dsn-heading">Design</h2>
+                <p class="dsn-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad placeat id aliquid adipisci, enim quia error ut expedita porro, iste nobis atque maiores vitae. Esse facilis dolor quam. Voluptate, fuga!</p>
+                <button class="btn btn-stmt">Get Started</button>
+                <div class="dsn-slider__counter">
+                    <span>01/05</span>
+                </div>
+                <div class="dsn-slider__control">
+             
+                    <img class="dsn-slider__control-img" src="./img/left-arraw.png" alt="" srcset="">
+                    <img class="dsn-slider__control-img" src="./img/right-arrow.png" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </section><!--End Design Section -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/popper.js"></script>
+</body>
+
+</html>
